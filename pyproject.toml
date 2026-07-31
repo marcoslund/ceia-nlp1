@@ -1,0 +1,15 @@
+[project]
+name = "ceia-nlp1"
+version = "0.1.0"
+description = "Desafíos de Procesamiento de Lenguaje Natural I (CEIA - FIUBA)"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy",
+    "scikit-learn",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel",
+    "jupyterlab",
+]
