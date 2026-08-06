@@ -11,7 +11,7 @@ Desafíos de Procesamiento de Lenguaje Natural I (CEIA - FIUBA).
 | # | Notebook | Colab | Estado |
 |---|----------|-------|--------|
 | 1 | [`Desafio_1.ipynb`](desafio_1/Desafio_1.ipynb) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/marcoslund/ceia-nlp1/blob/main/desafio_1/Desafio_1.ipynb) | Finalizado |
-| 2 | [`Desafio_2.ipynb`](desafio_2/Desafio_2.ipynb) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/marcoslund/ceia-nlp1/blob/main/desafio_2/Desafio_2.ipynb) | En curso |
+| 2 | [`Desafio_2.ipynb`](desafio_2/Desafio_2.ipynb) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/marcoslund/ceia-nlp1/blob/main/desafio_2/Desafio_2.ipynb) | Finalizado |
 | 3 | — | — | Pendiente |
 | 4 | — | — | Pendiente |
 
