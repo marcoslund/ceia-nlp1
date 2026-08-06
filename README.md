@@ -11,7 +11,7 @@ Desafíos de Procesamiento de Lenguaje Natural I (CEIA - FIUBA).
 | # | Notebook | Colab | Estado |
 |---|----------|-------|--------|
 | 1 | [`Desafio_1.ipynb`](desafio_1/Desafio_1.ipynb) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/marcoslund/ceia-nlp1/blob/main/desafio_1/Desafio_1.ipynb) | Finalizado |
-| 2 | — | — | Pendiente |
+| 2 | [`Desafio_2.ipynb`](desafio_2/Desafio_2.ipynb) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/marcoslund/ceia-nlp1/blob/main/desafio_2/Desafio_2.ipynb) | En curso |
 | 3 | — | — | Pendiente |
 | 4 | — | — | Pendiente |
 
@@ -35,11 +35,19 @@ Cada desafío tiene un badge que abre su notebook directamente en Colab. Los
 notebooks incluyen una celda inicial de `%pip install` con sus dependencias,
 así que se ejecutan sin configuración previa.
 
+El desafío 2 usa un corpus propio (`desafio_2/archive/`, los cinco libros de
+*A Song of Ice and Fire*). El notebook usa los archivos locales si existen y,
+si no, los descarga de este mismo repositorio, de modo que también corre en
+Colab sin pasos adicionales.
+
 ## Dependencias
 
 | Import | Paquete |
 |--------|---------|
 | `numpy` | `numpy` |
 | `sklearn` | `scikit-learn` |
+| `gensim` | `gensim` |
+| `matplotlib` | `matplotlib` |
+| `plotly` | `plotly` (necesita `nbformat` para renderizar en notebooks) |
 
 Las dependencias se agregan a medida que cada desafío las requiere.

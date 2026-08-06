@@ -4,7 +4,11 @@ version = "0.1.0"
 description = "Desafíos de Procesamiento de Lenguaje Natural I (CEIA - FIUBA)"
 requires-python = ">=3.12,<3.13"
 dependencies = [
+    "gensim",
+    "matplotlib",
+    "nbformat",
     "numpy",
+    "plotly",
     "scikit-learn",
 ]
 
@@ -12,4 +16,5 @@ dependencies = [
 dev = [
     "ipykernel",
     "jupyterlab",
+    "pip",
 ]
