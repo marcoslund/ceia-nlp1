@@ -5,11 +5,15 @@ description = "Desafíos de Procesamiento de Lenguaje Natural I (CEIA - FIUBA)"
 requires-python = ">=3.12,<3.13"
 dependencies = [
     "gensim",
+    "gradio",
     "matplotlib",
     "nbformat",
     "numpy",
+    "pandas",
     "plotly",
     "scikit-learn",
+    "seaborn",
+    "tensorflow",
 ]
 
 [dependency-groups]

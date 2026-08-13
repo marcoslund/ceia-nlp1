@@ -3,6 +3,11 @@ __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 
-# Artefactos que generan los notebooks (exportación para el TensorFlow Projector)
+# Caché que deja Gradio al levantar la interfaz del desafío 3
+.gradio/
+
+# Artefactos que generan los notebooks: exportación para el TensorFlow Projector
+# (desafío 2) y checkpoints del modelo de lenguaje (desafío 3)
 vectors.tsv
 labels.tsv
+*.keras
